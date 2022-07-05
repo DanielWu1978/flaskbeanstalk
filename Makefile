@@ -10,6 +10,6 @@ lint:
 
 deploy:
 	echo "Deploying app using code build...."
-	eb deploy flash-test --verbose
+	eb deploy flask-daniel-test --verbose
 
 all: install lint test 
