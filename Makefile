@@ -10,6 +10,6 @@ lint:
 
 deploy:
 	echo "Deploying app using code build...."
-	eb deploy flash-test
+	eb deploy flash-test --verbose
 
 all: install lint test 
