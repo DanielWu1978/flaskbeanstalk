@@ -1,6 +1,6 @@
 branch-defaults:
   main:
-    environment: null
+    environment: flash-test
     group_suffix: null
 global:
   application_name: flaskbeanstalk
