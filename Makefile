@@ -9,7 +9,7 @@ lint:
 	pylint --disable=R,C application.py
 
 deploy:
-	echo "Deploying app...."
+	echo "Deploying app using code build...."
 	eb deploy flash-test
 
 all: install lint test 
